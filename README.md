@@ -33,9 +33,19 @@ with mixed boundary conditions.
 
 ## Results
 
-The solver is tested for increasing grid resolutions to observe convergence and computational cost scaling.
+The solver was tested for increasing spatial resolutions (8x4, 16x8, 32x16, 64x32).
 
----
+For each resolution:
+
+- The solution converges under an L2-norm stopping criterion.
+- Computational time increases approximately with grid size.
+- The temperature distribution stabilizes into a smooth steady-state profile consistent with Poisson behavior under mixed boundary conditions.
+
+Higher grid resolutions produce smoother spatial gradients and improved numerical accuracy, at the cost of increased computational time.
+
+Example output includes:
+- 2D temperature field visualization
+- Resolution scaling comparison
 
 ## Requirements
 
