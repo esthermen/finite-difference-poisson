@@ -59,3 +59,8 @@ Example output includes:
 
 Esther Menéndez
 BSc Physics
+
+## Relaxation Process
+
+<img src="results/poisson_relaxation.gif" width="600">
+
